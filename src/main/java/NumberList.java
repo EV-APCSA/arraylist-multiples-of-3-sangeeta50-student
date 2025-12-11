@@ -37,7 +37,7 @@ public class NumberList {
 	public ArrayList<Integer> multiplesOf3(){
 		int multiple = 0;
 		ArrayList<Integer> threes = new ArrayList<Integer>();
-		for (int i = 0; i < 50; i++) {
+		for (int i = 0; i < 100; i++) {
 				threes.add(multiple);
 				multiple+=3;
 		}
@@ -68,7 +68,7 @@ public class NumberList {
 	 */
 	public void removeEvens(ArrayList<Integer> list){
 		for (int i = 0; i < list.size(); i++) {
-			if (list.get(i)%2 == 0) {
+			if (list.get(i)%2 == 1) {
 				list.remove(i);
 			    i--;
 			}
